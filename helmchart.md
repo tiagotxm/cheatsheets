@@ -1,6 +1,6 @@
-- Download published helm 
+- Download helm 
     ```
-    helm pull chartrepo/chartname
+    helm pull chartrepo/chartname --untar
     ```
     
 - Create helm structure 
