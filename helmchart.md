@@ -6,36 +6,36 @@
 - Create helm structure 
     ```
     # The directory name is the helm name
-    helm create eksworkshop
+    helm create <chart-name>
     ```
     
 - Test    
     ```
     # Test the Chart without deploy
-    helm install --debug --dry-run <nome-diretorio> <caminho-diretorio>
+    helm install --debug --dry-run <directory> <path-directory>
     ```
     
 - Deploy helm
     ```
-    helm install workshop <caminho-diretorio>
+    helm install <chart> <path-directory>
     ```
     
 - Update Helm
     ```
-    helm upgrade workshop <caminho-diretorio>
+    helm upgrade <chart> <path-directory>
     ```
     
 - Show history
     ```
-    helm history workshop
+    helm history <chart>
     ```
     
 - Rollback history    
     ```
-    helm rollback <nome-diretorio> <versão>
+    helm rollback <directory> <version>
     ```
     
 - Check status
     ```
-    helm status <nome-diretorio>
+    helm status <directory>
     ```
